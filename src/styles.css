@@ -1,0 +1,324 @@
+/* src/styles.css */
+
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    padding-top: 56px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .row {
+    justify-content: center;
+  }
+ /* About Section Gradient */
+.about-gradient {
+    background: linear-gradient(135deg, #1c1c1c, #333, #1e90ff); /* Replace #1c1c1c with a lighter shade if needed */
+    color: white;
+    min-height: 100vh;
+    padding: 50px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  /* Ensure content is above background */
+  .about-gradient .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* Add optional overlay */
+  .about-gradient::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Optional dark overlay for better text visibility */
+    z-index: 1;
+  }
+  
+  /* Text Styling */
+  .about-container {
+    text-align: center;
+    color: white;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .about-container h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .about-container p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  /* Skills Section Gradient */
+.skills-gradient {
+    background: linear-gradient(135deg, #1c1c1c, #333, #1e90ff);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  
+  /* Card Styling */
+  .card {
+    border: none;
+    border-radius: 10px;
+    background-color: #222; /* Ensure background contrast */
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white; /* Ensure text is visible */
+  }
+  
+  .card-img-top {
+    border-radius: 10px;
+    background-color: #333;
+    padding: 10px; /* Add padding to the image */
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  /* Add Hover Effects */
+  .card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Ensure responsive behavior */
+  .card-body h5 {
+    margin-top: 10px;
+    text-align: center;
+    color: #ffffff; /* Ensure visibility on dark backgrounds */
+  }
+ /* Education Section Gradient */
+.education-gradient {
+    background: linear-gradient(135deg, #1c1c1c, #333, #1e90ff);
+    color: white; /* Ensure strong text color */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  
+  /* Text Styling */
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff; /* Bright white text */
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .card-text {
+    color: #cccccc; /* Softer white for contrast */
+    font-size: 0.9rem;
+    line-height: 1.5; /* Improve readability */
+  }
+  h2 {
+    font-size: 2.5rem; /* Increase the font size for visibility */
+    font-weight: bold;
+    color: #ffffff; /* Ensure the text is bright white */
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Add shadow for contrast */
+    margin-bottom: 30px;
+    z-index: 2; /* Ensure it stays above the background */
+  }
+  /* Internships Section Gradient */
+.internships-gradient {
+    background: linear-gradient(135deg, #1c1c1c, #333, #1e90ff);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  
+  /* Card Styling */
+  .card {
+    border: none;
+    border-radius: 10px;
+    background-color: #222; /* Ensure background contrast */
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white; /* Ensure text is visible */
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .card-text {
+    color: #ddd; /* Softer color for text */
+    font-size: 0.9rem;
+    line-height: 1.5; /* Improve readability */
+  }
+  
+  .card-img-top {
+    border-radius: 10px;
+    background-color: #333;
+    padding: 10px;
+    height: 150px;
+    object-fit: contain;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Achievements Section Gradient */
+.achievements-gradient {
+    background: linear-gradient(135deg, #1c1c1c, #333, #1e90ff);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    position: relative;
+    overflow: hidden; /* For background animations */
+  }
+  
+  /* Card Styling */
+  .card {
+    border: none;
+    border-radius: 10px;
+    background-color: #222; /* Ensure background contrast */
+  }
+  
+  .card-text {
+    color: #ddd; /* Softer color for text */
+    font-size: 1rem;
+    line-height: 1.5; /* Improve readability */
+  }
+  
+  .card-img-top {
+    border-radius: 10px;
+    background-color: #333;
+    padding: 10px;
+    height: 150px;
+    object-fit: contain;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Background Animation */
+  @keyframes moveBackground {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-200%);
+    }
+  }
+  
+  .achievements-gradient::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), transparent);
+    animation: moveBackground 20s linear infinite;
+    z-index: 1;
+  }
+  
+  .achievements-gradient .container {
+    position: relative;
+    z-index: 2; /* Ensure content stays above the animation */
+  }
+  .login-gradient, .signup-gradient {
+    background: linear-gradient(135deg, #1c1c1c, #333, #1e90ff);
+    color: white;
+    min-height: 100vh;
+  }
+  .card {
+    background-color: #222;
+    border: none;
+    color: white;
+  }
+  .card h2 {
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  }
+/* Gradient Background for Login */
+.login-gradient {
+    background: linear-gradient(135deg, #1c1c1c, #333, #1e90ff);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0; /* Remove extra padding */
+  }
+  
+  .card {
+    background-color: #222;
+    border: none;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h2 {
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  }
+    
