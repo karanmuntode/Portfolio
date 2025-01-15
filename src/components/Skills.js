@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles.css"; // Ensure styles are imported
+import "../styles.css"; 
 
 function Skills() {
   const skills = [
@@ -21,7 +21,7 @@ function Skills() {
     },
     {
       name: "SQL",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGGT_pnMHJdps9fGjcDaFSqcfFxO2E7BQk4g&s", // Updated MySQL logo URL
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGGT_pnMHJdps9fGjcDaFSqcfFxO2E7BQk4g&s",
     },
     {
       name: "React.js",
@@ -29,7 +29,7 @@ function Skills() {
     },
     {
       name: "Data Science Tools (Matplotlib)",
-      image: "https://matplotlib.org/_static/logo2_compressed.svg", // Matplotlib image URL
+      image: "https://matplotlib.org/_static/logo2_compressed.svg",
     },
   ];
 

@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles.css"; // Ensure styles are imported
+import "../styles.css"; 
 
 function Education() {
   const educationDetails = [
@@ -17,7 +17,7 @@ function Education() {
       score: "79%",
       description:
         "Excelled in science stream with a focus on Mathematics, Physics, and Chemistry.",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDUCMUgGO0pTUXZTvxBeg8QKM6v9OJEpuHeA&s", // Online icon for HSC
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDUCMUgGO0pTUXZTvxBeg8QKM6v9OJEpuHeA&s", 
     },
     {
       degree: "SSC",
@@ -25,7 +25,7 @@ function Education() {
       score: "71.40%",
       description:
         "Laid the foundation for academic excellence and skill development.",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDUCMUgGO0pTUXZTvxBeg8QKM6v9OJEpuHeA&s", // Online icon for SSC
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDUCMUgGO0pTUXZTvxBeg8QKM6v9OJEpuHeA&s", 
     },
   ];
 

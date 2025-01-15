@@ -1,27 +1,27 @@
 import React from "react";
-import "../styles.css"; // Ensure custom styles are imported
+import "../styles.css";
 
 function Achievements() {
   const achievements = [
     {
       title: "Secured 6th position in SunHacks Hackathon, Nashik (2023)",
-      image: "https://cdn-icons-png.flaticon.com/512/2963/2963599.png", // Trophy Icon
+      image: "https://cdn-icons-png.flaticon.com/512/2963/2963599.png",
     },
     {
       title: "Participated in INITHACKS Hackathon, Dhule (2023)",
-      image: "https://cdn-icons-png.flaticon.com/512/2395/2395790.png", // Hackathon Icon
+      image: "https://cdn-icons-png.flaticon.com/512/2395/2395790.png", 
     },
     {
       title: "Attended Data to AI Workshop by Google at IIT Bombay",
-      image: "https://cdn-icons-png.flaticon.com/512/2936/2936638.png", // Workshop Icon
+      image: "https://cdn-icons-png.flaticon.com/512/2936/2936638.png", 
     },
     {
       title: "Completed Digital Productivity course by NIIT Foundation (2023)",
-      image: "https://cdn-icons-png.flaticon.com/512/2920/2920311.png", // Certificate Icon
+      image: "https://cdn-icons-png.flaticon.com/512/2920/2920311.png",
     },
     {
       title: "Division-level Volleyball player",
-      image: "https://cdn-icons-png.flaticon.com/512/876/876768.png", // Volleyball Icon
+      image: "https://cdn-icons-png.flaticon.com/512/876/876768.png", 
     },
   ];
 

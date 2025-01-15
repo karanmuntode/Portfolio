@@ -1,21 +1,21 @@
 import React from "react";
-import "../styles.css"; // Ensure styles are imported
+import "../styles.css";
 
 function About() {
   return (
     <div className="about-gradient">
       <div className="container about-container">
         <div className="row align-items-center">
-          {/* Photo Section */}
+          
           <div className="col-md-4 text-center mb-4 mb-md-0">
             <img
-              src="/images/Karan.jpg" // Replace with your image path
+              src="/images/Karan.jpg" 
               alt="Your Name"
               className="img-fluid rounded-circle shadow"
               style={{ width: "200px", height: "200px", objectFit: "cover" }}
             />
           </div>
-          {/* Info Section */}
+          
           <div className="col-md-8 text-center text-md-left">
             <h1>About Me</h1>
             <p>
@@ -48,7 +48,7 @@ function About() {
                 GitHub
               </a>
               <a
-  href="/Karan Resume.pdf" // Correct path inside the public folder
+  href="/Karan Resume.pdf"
   className="btn btn-primary ms-2"
   download
 >

@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles.css"; // Ensure custom styles are imported
+import "../styles.css"; 
 
 function Internships() {
   const internships = [
@@ -8,26 +8,26 @@ function Internships() {
       description:
         "10-week virtual internship focusing on data preprocessing, model building, and evaluation.",
       skills: ["Python", "Pandas", "Machine Learning", "Data Visualization"],
-      image: "https://cdn-icons-png.flaticon.com/512/3004/3004147.png", // AI/ML Icon
+      image: "https://cdn-icons-png.flaticon.com/512/3004/3004147.png", 
     },
     {
       title: "AWS Data Engineering - AICTE EduSkills",
       description:
         "Hands-on experience with AWS services such as EC2, S3, VPC, and IAM.",
       skills: ["AWS EC2", "S3", "IAM", "VPC"],
-      image: "https://cdn-icons-png.flaticon.com/512/873/873120.png", // Cloud Icon
+      image: "https://cdn-icons-png.flaticon.com/512/873/873120.png", 
     },
     {
       title: "Web Development - Cognifyz",
       description: "Online internship focused on web development concepts.",
       skills: ["HTML", "CSS", "JavaScript", "React.js"],
-      image: "https://cdn-icons-png.flaticon.com/512/1055/1055687.png", // Web Development Icon
+      image: "https://cdn-icons-png.flaticon.com/512/1055/1055687.png",
     },
     {
       title: "PCB Design - Techno Spark",
       description: "Learned PCB design basics and advanced concepts.",
       skills: ["PCB Design", "Schematic Creation", "Signal Routing"],
-      image: "https://cdn-icons-png.flaticon.com/512/679/679690.png", // PCB Design Icon
+      image: "https://cdn-icons-png.flaticon.com/512/679/679690.png", 
     },
   ];
 

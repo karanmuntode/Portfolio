@@ -7,7 +7,7 @@ function Projects() {
       title: "React News Application",
       description:
         "Built a responsive news app using React and Bootstrap, integrating NewsAPI for real-time articles. Features include category-based filtering, pagination, and dynamic content rendering.",
-      image: "/images/news.jpeg", // Image from the public folder
+      image: "/images/news.jpeg",
     },
     {
       title: "Internship Management Portal",
